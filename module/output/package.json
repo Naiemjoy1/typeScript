@@ -1,0 +1,15 @@
+{
+  "name": "output",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dynamic_any.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "types": "./dynamic_any.d.ts"
+}
