@@ -1,22 +1,13 @@
-let b: string | number;
-let a: (string | number | boolean)[] = [];
-
-b = "naiem";
-a.push(44, "naiem", true);
-console.log(a);
-console.log(b);
-
-// object
-let c: {
-  name: string;
-  age: number;
-  adult: boolean;
+let person = {
+  name: "Mashrafi",
+  age: 35,
+  isCaptain: true,
+  home: "dhaka",
 };
 
-c = {
-  name: "naiem",
-  age: 34,
-  adult: true,
-};
+person.name = "naiem";
+person.isCaptain = false;
+person.age = 28;
+person.home = "sirajganj";
 
-console.log(c);
+console.log(person);

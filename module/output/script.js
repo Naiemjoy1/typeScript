@@ -1,16 +1,13 @@
-var b;
-var a = [];
-b = "naiem";
-a.push(44, "naiem", true);
-console.log(a);
-console.log(b);
-// object
-var c;
-c = {
-    name: "naiem",
-    age: 34,
-    adult: true,
+var person = {
+    name: "Mashrafi",
+    age: 35,
+    isCaptain: true,
+    home: "dhaka",
 };
-console.log(c);
+person.name = "naiem";
+person.isCaptain = false;
+person.age = 28;
+person.home = "sirajganj";
+console.log(person);
 export {};
 //# sourceMappingURL=script.js.map
