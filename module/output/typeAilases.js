@@ -1,8 +1,8 @@
-var userDetails = function (id, user) {
-    console.log("user id is ".concat(id, ", name is ").concat(user.name, " and age is ").concat(user.age));
+const userDetails = (id, user) => {
+    console.log(`user id is ${id}, name is ${user.name} and age is ${user.age}`);
 };
-var sayHello = function (user) {
-    console.log("Hello ".concat(user.age > 50 ? "sir" : "mr", " ").concat(user.name));
+const sayHello = (user) => {
+    console.log(`Hello ${user.age > 50 ? "sir" : "mr"} ${user.name}`);
 };
 userDetails("Ab12", { name: "Naiem", age: 25 });
 sayHello({ name: "Naiem", age: 25 });

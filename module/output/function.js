@@ -1,5 +1,4 @@
-var myFunc = function (a, b, c) {
-    if (c === void 0) { c = 4; }
+const myFunc = (a, b, c = 4) => {
     return a + b;
 };
 myFunc("BD", "TH", 5);

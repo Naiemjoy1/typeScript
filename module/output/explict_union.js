@@ -1,11 +1,11 @@
-var b;
-var a = [];
+let b;
+let a = [];
 b = "naiem";
 a.push(44, "naiem", true);
 console.log(a);
 console.log(b);
 // object
-var c;
+let c;
 c = {
     name: "naiem",
     age: 34,

@@ -1,4 +1,4 @@
-var person = {
+let person = {
     name: "Mashrafi",
     age: 35,
     isCaptain: true,
